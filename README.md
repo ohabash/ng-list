@@ -2,7 +2,7 @@
 
 This is my favorite frontend environment. It's a great start for most simple websites. Includes the following:
 
- * Bootstrap 4 (css/js)
+ * Bulma (css)
  * AngularJS (ngroutes / nganimate / ng-includes)
  * usefull mixins for colors, easing, centering, and more
  * Grunt Tasks for sass compiling / minifying / watch / BrowserSync (live-reload) / server (localhost)
@@ -14,12 +14,11 @@ you will need `git-cli` `npm` and `grunt before starting`
 
 # Use Instructions
 
-* download this repo `git clone https://github.com/ohabash/angularjs-bootstrap4-grunt.git`
+* run this in your projects dir `git clone https://github.com/ohabash/ng-list.git ng-list`
 
-* `cd` to root and `npm install`
+* `cd ng-list` and `npm install` to download the list of modules in __package.json__ using npm
 
-* start grunt __watch__ and __browserSync__ tasks with `grunt`
+* start grunt __watch__ and __browserSync__ tasks with `grunt` command
 
 * your browser should pop up serving this content on `http://localhost:3000/`. Try to edit the scss to see it in action
 
-* Click on the close menu button from the bottom of the sidebar to close menu

@@ -1,4 +1,5 @@
-# angularjs-bootstrap4-grunt-bulma
+# ng-list
+Messing around with angular and amazon tools
 
 
  * Bulma (css)

@@ -1,6 +1,5 @@
 # angularjs-bootstrap4-grunt-bulma
 
-This is my favorite frontend environment. It's a great start for most simple websites. Includes the following:
 
  * Bulma (css)
  * AngularJS (ngroutes / nganimate / ng-includes)
@@ -16,7 +15,7 @@ you will need `git-cli` `npm` and `grunt before starting`
 
 * run this in your projects dir `git clone https://github.com/ohabash/ng-list.git ng-list`
 
-* `cd ng-list` and `npm install` to download the list of modules in __package.json__ using npm
+* `cd ng-list` and `npm install` to download the list of modules in __package.json__ using __npm__
 
 * start grunt __watch__ and __browserSync__ tasks with `grunt` command
 

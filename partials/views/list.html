@@ -1,11 +1,9 @@
  <div class="container" ng-controller="theList">
-  <h1>Task Tracker</h1>
   <div class="add">
     <input type="text" ng-model="addTaskName" placeholder="Enter Task Name" />
     <input type="button" ng-click="addTask()" value="Add" />
   </div>
   <div class="todo">
-    <h2>TODO</h2>
     <div class="task" ng-repeat="task in todoList track by $index">{{task}} <a href="#" ng-click="deleteTask(task)">X</a></div>
   </div>
 </div>
